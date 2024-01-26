@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <title>FamilyConnect - ホーム</title>
+</head>
+<body>
+    <header>
+        <a href="setting.html">
+            <i class="fa-solid fa-gear"></i>
+        </a>
+    </header>
+    <div id="canvasContainer">
+        <input type="text" id="textBox" placeholder="Hello!" style="display: none;">
+        <canvas id="canvas" width="430" height="860"></canvas>
+    </div>
+    <main>
+        <div class="main-btn">
+            <a href="schedule.html">
+                <i class="fa-regular fa-calendar"></i>
+            </a>
+            <a href="chat.html">
+                <i class="fa-regular fa-comment"></i>
+            </a>
+        </div>
+    </main>
+    <footer class="nav">
+            <div id="stampContainer"></div>
+            <ul class="main-choice">
+                <li>
+                    <!-- Font Awesomeのアイコンを使用します。 -->
+                    <i class="fa-regular fa-pen-to-square" id="colorButton"></i>
+                    <!-- カラーピッカーを作成します。デフォルトでは非表示にしています。 -->
+                    <input type="color" id="colorPicker" style="display: none;">
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-solid fa-eraser"></i>
+                    </button>
+                </li>
+                <li>
+                    <button id="stampButton">
+                        <i class="fa-solid fa-stamp"></i>
+                    </button>
+                </li>
+                <li>
+                    <button id="drawButton">
+                        <i class="fa-regular fa-note-sticky"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="reset hideButton">
+                        <i class="fa-regular fa-trash-can"></i>
+                    </button>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>

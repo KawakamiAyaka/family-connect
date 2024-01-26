@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/newshedule.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet"></head>
+
+    <title>FamilyConnect - 新規スケジュール</title>
+</head>
+<body>
+    <header>
+        <a href="schedule.html">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </a>
+    </header>
+    <main>
+        <div class="newshedule">
+            <h1 class="newshedule-titl">新規スケジュール</h1>
+        </div>
+        <form action="" method="post" class="acct">
+            <div class="text">
+                <p class="title"><input type="text" name="title" placeholder="タイトル" size="34"></p>
+                <p class="message"><input type="text" name="message" placeholder="伝言" size="34"></p>
+            </div>
+            <input class="date" type="date"/>
+            <div class="drop-down drop-down01">
+                <select required>
+                    <option class="select" value="" hidden>曜日を選択</option>
+                    <option value="1">月曜日</option>
+                    <option value="2">火曜日</option>
+                    <option value="3">水曜日</option>
+                    <option value="4">木曜日</option>
+                    <option value="5">金曜日</option>
+                    <option value="6">土曜日</option>
+                    <option value="7">日曜日</option>
+                </select>
+            </div>
+            <div class="timeset">
+                <p>開始時間</p>
+                <input class="time" type="time"/>
+            </div>
+            <div class="timeset">
+                <p>終了時間</p>
+                <input class="time" type="time"/>
+            </div>
+            <div class="save-btn">
+                <a href="schedule.html">保存</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

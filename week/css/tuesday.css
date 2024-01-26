@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ABDAD1;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    gap: 73px;
+}
+
+.header h1{
+    font-size: 25px;
+    color: #FAEEC6;
+    margin: 10px 40px;
+}
+
+.fa-circle-chevron-right{
+    margin-top: 10px;
+    font-size: 35px;
+    color: #FAEEC6;
+}
+
+.schedule{
+    display: flex;
+    position: relative;
+}
+
+.mon{
+    position: absolute;
+    background: #FAEEC6;
+    padding: 0 50px 0 0 ;
+}
+
+.weekbtn{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    margin: 40px 20px 0 40px;
+}
+
+.weekbtn li{
+    width: 50px;
+    height: 50px;
+    background: #FAEEC6;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+}
+
+.weekbtn li a{
+    color: #F4A460;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+}
+
+.plus{
+    width: 50px;
+    height: 50px;
+    background: #FAEEC6;
+    border-radius: 40%;
+    margin-top: 130px;
+}
+
+.fa-plus{
+    color: #F4A460;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.datewrap{
+    position: absolute;
+    width: 240px;
+    height: 565px;
+    background: #FAEEC6;
+    border-radius: 20px;
+    margin: 20px 110px;
+}
+
+h1{
+    color: #F4A460;
+    font-size: 20px;
+    margin: 20px;
+}
+
+h2{
+    color: #F4A460;
+    font-size: 15px;
+    text-align: center;
+}
+
+.family{
+    display: flex;
+    border-bottom: #F4A460 solid 1px;
+    width: 190px;
+    margin: 20px auto;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #c8f1c5;
+    margin: 0 10px 5px 0;
+}
+
+.fa-user{
+    font-size: 20px;
+    padding: 16px;
+    color: #F4A460;
+}
+
+.edit{
+    color: #F4A460;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.countdown{
+    background: #6fccb9;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.countdown p{
+    color: #FAEEC6;
+    padding: 15px 0 10px 0;
+}
+
+.countdown p span{
+    font-size: 25px;
+}

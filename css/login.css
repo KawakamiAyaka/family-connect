@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: #abdad1;
+    box-shadow: 0 2px 5px #555555;
+}
+
+a{
+    text-decoration: none;
+    color: #FAEEC6;
+}
+
+.fa-circle-chevron-left{
+    position: absolute;
+    bottom: 15px;
+    font-size: 35px;
+    margin: 0 0 2px 40px;
+}
+
+.setting{
+    margin-top: 30px;
+}
+
+.setting-titl{
+    margin: 0 auto;
+    width: 42px;
+    left: 40px;
+    color: #535353;
+    font-size: 20px;
+    border-bottom: 1px solid #535353;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    color: #535353;
+}
+
+label{
+    display: block;
+    color: #535353;
+    font-size: 17px;
+}
+
+input{
+    border: 0.3px solid #C7C7CC;
+    width: 298px;
+}
+
+.name-form, .pass-form{
+    width: 300px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.lostpass{
+    color: #4C7CBB;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.login-btn{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin: 40px auto 0 auto;
+}
+
+.login-btn a{
+    color: #fff;
+    font-size: 20px;
+    background: #F4A460;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 1px 1px 0 #535353;
+}
+.login-btn a:hover{
+    box-shadow: inset 0 1px 1px 0 #535353;
+    background: #e69c5a;
+
+
+}
+.newacct{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.newacct a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 15px;
+}

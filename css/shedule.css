@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ABDAD1;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    gap: 73px;
+}
+
+.header h1{
+    font-size: 25px;
+    color: #FAEEC6;
+    margin: 20px 40px;
+}
+
+.fa-circle-chevron-right{
+    margin-top: 23px;
+    font-size: 35px;
+    color: #FAEEC6;
+}
+
+.schedule{
+    display: flex;
+}
+
+.mon{
+    background: #FAEEC6;
+    padding: 0 50px 0 0 ;
+}
+
+.weekbtn{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    margin: 30px 20px 0 40px;
+}
+
+.weekbtn li{
+    width: 60px;
+    height: 60px;
+    background: #FAEEC6;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 20px;
+}
+
+.weekbtn li a{
+    color: #F4A460;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+}
+
+.plus{
+    width: 60px;
+    height: 60px;
+    background: #FAEEC6;
+    border-radius: 40%;
+    margin-top: 150px;
+}
+
+.fa-plus{
+    color: #F4A460;
+    font-size: 20px;
+    padding: 35%;
+}
+
+.datewrap{
+    position: absolute;
+    width: 279px;
+    height: 800px;
+    background: #FAEEC6;
+    border-radius: 20px;
+    margin: 10px 110px;
+}
+
+h1{
+    color: #F4A460;
+    font-size: 25px;
+    margin: 25px;
+}
+
+h2{
+    color: #F4A460;
+    font-size: 20px;
+    text-align: center;
+}
+
+.family{
+    display: flex;
+    border-bottom: #F4A460 solid 1px;
+    width: 190px;
+    margin: 40px auto;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #c8f1c5;
+    margin: 0 10px 5px 0;
+}
+
+.fa-user{
+    font-size: 20px;
+    padding: 16px;
+    color: #F4A460;
+}
+
+.edit{
+    color: #F4A460;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.countdown{
+    background: #6fccb9;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 100px auto 0px auto;
+}
+
+.countdown p{
+    color: #FAEEC6;
+    padding: 30px 0 30px 0;
+}
+
+.countdown p span{
+    font-size: 25px;
+}

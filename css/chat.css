@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ABDAD1;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    gap: 163px;
+}
+
+.fa-circle-chevron-left{
+    margin-top: 18px;
+    margin-left: 40px;
+    font-size: 35px;
+    color: #FAEEC6;
+}
+
+.header h1{
+    margin-top: 15px;
+    font-size: 25px;
+    color: #FAEEC6;
+}
+
+main{
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.chat{
+    width: 279px;
+    height: 800px;
+    /* margin: 0 60px 0 0 ; */
+}
+
+.datewrap{
+    width: 279px;
+    height: 800px;
+    overflow: auto;
+    background: #FAEEC6;
+    border-radius: 20px;
+    /* margin: 10px 0 10px 40px; */
+    position: relative;
+}
+.inputbox {
+    display: flex;
+    position: absolute;
+    width: 99.2%;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #F4A460;
+    border-radius: 20px;
+}
+
+.iconbtn li{
+    width: 60px;
+    height: 60px;
+    background: #FAEEC6;
+    list-style: none;
+    border-radius: 20px;
+    margin: 20px 0 40px 20px;
+    z-index: 99;
+}
+.iconbtn li:first-child{
+    padding-left: 20px;
+    margin: 20px 0 40px 0;
+    border-radius: 0 20px 20px 0;
+}
+
+
+.iconbtn li i{
+    color: #F4A460;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 60%;
+}
+
+.fa-plus{
+    padding: 1px 0 0 1px;
+}
+
+#userInput{
+    width: 215px;
+    /* border: #F4A460 1px solid; */
+    border-radius: 20px;
+    background: #FAEEC6;
+    padding: 5px;
+    /* margin-left: 40px; */
+}
+
+.send{
+    width: 60px;
+    height: 40px;
+    border-radius: 19.1px;
+    background: #F4A460;
+}
+
+.datewrap {
+    overflow: hidden;
+    background: #FAEEC6;
+}
+.datewrap .message {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+}
+.datewrap p {
+    position: relative;
+    border-radius: 15px;
+    padding: 6px 16px;
+    margin: 5px 15px 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #F4A460;
+}
+.datewrap p::before{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    right: -18px;
+    border: 10px solid transparent;
+    border-left: 15px solid #F4A460;
+    transform: rotate(32deg);
+}
+.datewrap span {
+    font-size: 33%;
+}
